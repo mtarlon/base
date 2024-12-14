@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafetería Aromas del Café</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+        }
+        header {
+            background-color: #6f4e37;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #56423c;
+        }
+        nav a {
+            color: white;
+            padding: 15px 20px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #3e302b;
+        }
+        .container {
+            padding: 20px;
+        }
+        .info {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .info img {
+            width: 300px;
+            height: auto;
+            margin-right: 20px;
+            transition: transform 0.5s;
+        }
+        .info img:hover {
+            transform: scale(1.1);
+        }
+        .info div {
+            max-width: 600px;
+        }
+        footer {
+            background-color: #6f4e37;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cafetería Aromas del Café</h1>
+    </header>
+    <nav>
+        <a href="#quienes-somos">Quiénes Somos</a>
+        <a href="#nuestros-cafes">Nuestros Cafés</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <div class="container" id="quienes-somos">
+        <h2>Quiénes Somos</h2>
+        <div class="info">
+            <img src="img.jpg" alt="Imagen de cafeteria">
+            <div>
+                <p>Bienvenidos a Aromas del Café, tu refugio perfecto para disfrutar de una taza de café de alta calidad. Nuestra misión es ofrecer a nuestros clientes la mejor experiencia cafetera, desde el grano hasta la taza. Nos enorgullece seleccionar los mejores granos de café de las fincas más prestigiosas y prepararlos con amor y dedicación.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="nuestros-cafes">
+        <h2>Nuestros Cafés</h2>
+        <div class="info">
+            <img src="img1.jpg" alt="Imagen de Cafés">
+            <div>
+                <p>En Aromas del Café, contamos con una amplia variedad de cafés para satisfacer todos los gustos. Desde los suaves y afrutados de Centroamérica hasta los fuertes y achocolatados de África, tenemos algo para cada amante del café. Nuestro menú incluye espressos, cappuccinos, lattes, y muchas más especialidades.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="contacto">
+        <h2>Contacto</h2>
+        <div class="info">
+            <img src="img2.jpg" alt="Imagen de Contacto">
+            <div>
+                <p>Visítanos en nuestra dirección en el centro de la ciudad o contáctanos a través de nuestras redes sociales. Estamos siempre disponibles para responder tus preguntas y asegurarnos de que tu experiencia en Aromas del Café sea inolvidable.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Cafetería Aromas del Café</p>
+    </footer>
+</body>
+</html>
